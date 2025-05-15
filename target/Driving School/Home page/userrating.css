@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    text-align: center;
+}
+
+.testimonials-section {
+    padding: 50px 20px;
+}
+
+.testimonial-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.testimonial-container {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+}
+
+.testimonial-card {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card.active {
+    display: flex;
+}
+
+.prev-btn, .next-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.info-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.cta-section {
+    margin: 30px 0;
+}
+
+.cta-button {
+    background: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+.learner_dp {
+    width: 10em;
+    height: 8em;
+    aspect-ratio: 1/1;
+    clip-path: circle()
+}

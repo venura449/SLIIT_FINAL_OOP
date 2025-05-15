@@ -1,0 +1,149 @@
+/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 7px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Profile Container */
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.profile-container:hover {
+    transform: scale(1.05);
+}
+
+/* Profile Sidebar */
+.profile-sidebar {
+    background-color: #fff;
+    padding: 30px;
+    width: 35%;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.profile-sidebar:hover {
+    transform: translateY(-5px);
+}
+
+/* Profile Picture Box */
+.profile-pic-box {
+    position: relative;
+    display: inline-block;
+    border: 5px solid #2c3e50;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.profile-pic-box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic {
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.upload-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #2c3e50;
+    border-radius: 50%;
+    padding: 8px;
+    transition: all 0.3s ease;
+}
+
+.profile-pic-box:hover .upload-icon {
+    background-color: #34495e;
+}
+
+/* Profile Information */
+.profile-content {
+    width: 60%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.profile-content h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+/* Profile Details */
+.info-box p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Booked Lessons */
+.lessons-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lessons-container li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.lessons-container li:hover {
+    background: #f8f9fa;
+    transform: scale(1.03);
+}
+
+/* Delete Button */
+.delete-btn {
+    padding: 5px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+}

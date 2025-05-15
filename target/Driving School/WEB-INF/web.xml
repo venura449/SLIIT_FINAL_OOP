@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Registration</display-name>
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>com.auth.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/logserve</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>com.auth.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>com.auth.RegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/regserve</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>com.auth.DeleteBookingServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>add</servlet-name>
+    <servlet-class>com.auth.BookingServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>map</servlet-name>
+    <servlet-class>com.auth.AppointmentServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>map</servlet-name>
+    <url-pattern>/map</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>admin-booking</servlet-name>
+    <servlet-class>com.auth.AdminBookingServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>admin-booking</servlet-name>
+    <url-pattern>/admin-booking</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>inquiry</servlet-name>
+    <servlet-class>com.auth.InquiryServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>inquiry</servlet-name>
+    <url-pattern>/inquiry</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>inquiry-management</servlet-name>
+    <servlet-class>com.auth.InquiryManagementServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>inquiry-management</servlet-name>
+    <url-pattern>/inquiry-management</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>forgot-password</servlet-name>
+    <servlet-class>com.auth.ForgotPasswordServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>forgot-password</servlet-name>
+    <url-pattern>/forgot-password</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>forgot-password-servlet</servlet-name>
+    <servlet-class>com.auth.ForgotPasswordServletSimple</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>forgot-password-servlet</servlet-name>
+    <url-pattern>/forgot-password-servlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>user-management</servlet-name>
+    <servlet-class>com.auth.UserManagementServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>user-management</servlet-name>
+    <url-pattern>/user-management</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>service-management</servlet-name>
+    <servlet-class>com.services.ServiceManagementServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>service-management</servlet-name>
+    <url-pattern>/service-management</url-pattern>
+  </servlet-mapping>
+
+</web-app>
