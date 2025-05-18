@@ -1,0 +1,5 @@
+87654321|Advanced Driving Course|Comprehensive course for experienced drivers|300.00|300|Courses
+abcdef12|Defensive Driving|Learn defensive driving techniques|75.00|90|Special
+98765432|Highway Driving|Practice driving on highways and motorways|65.00|75|Courses
+11223344|Parking Skills|Master various parking techniques|45.00|45|Special
+e9f1da15|gd|dgdg|12|21|Special
