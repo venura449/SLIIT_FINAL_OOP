@@ -1,0 +1,8 @@
+Venura Jayasingha,employee@004fathima.com,123
+parami,parami@gmail.com,456
+Gayasha,Gayasha@admin.com,Gayasha123
+Admin User,admin@admin.com,admin123
+Gayasha jayasinghe,gayasha123@gmail.com,123
+Adeesa,adeesainduranga10@gmail.com,123
+Adeesa,adeesainduranga10@admin.com,123
+Madhushika,madhushika@gmail.com,123
